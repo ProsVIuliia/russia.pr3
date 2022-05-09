@@ -4,6 +4,11 @@
   justify-content: space-between;
   width: calc(100% - 128px * 2);
   margin: 0 auto;
+   max-width: 1185px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1279px) {

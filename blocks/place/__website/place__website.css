@@ -1,12 +1,17 @@
 .place__website {
+    grid-area: website;
     align-self: end;
-    margin-bottom: 48px;
-    display: flex;
-    flex-direction: column;
-}
-
-@media screen and (max-width: 767px) {
+  }
+  
+  @media screen and (max-width: 768px) {
     .place__website {
-        margin: 0 0 32px 16px;
+      align-self: center;
     }
-}
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 657px) {
+    .place__website {
+      min-width: 288px;
+      margin: 0 auto;
+    }
+  }
