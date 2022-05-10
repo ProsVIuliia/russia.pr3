@@ -18,4 +18,3 @@
 - Адаптивный интерфейс для разных устройств.
 
 Ссылка на проект:
-https://prosviuliia.github.io/russian-travel-pr3/
